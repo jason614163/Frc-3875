@@ -314,7 +314,7 @@ public final class Main {
 		boolean findContoursExternalOnly = false;
 		findContours(findContoursInput, findContoursExternalOnly, findContoursOutput);
     //Print out Area and center Points
-    System.out.println(findContoursOutput.toList());
+    for(var mat: findContoursOutput) { System.out.println(mat.toList()); }
 	}
 
 	/**
