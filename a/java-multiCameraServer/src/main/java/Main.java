@@ -313,7 +313,8 @@ public final class Main {
 		Mat findContoursInput = hsvThresholdOutput;
 		boolean findContoursExternalOnly = false;
 		findContours(findContoursInput, findContoursExternalOnly, findContoursOutput);
-    System.out.println(findContoursOutput);
+    //Print out Area and center Points
+    System.out.println(findContoursOutput.toList());
 	}
 
 	/**
